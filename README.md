@@ -441,5 +441,11 @@ cargo +nightly fuzz run rumqtt_proto_v5 -- -dict=fuzz/dicts/rumqtt_proto_v5
 cargo +nightly fuzz run client_id -- -dict=fuzz/dicts/client_id
 ```
 
+## License
+
+FoxMQ is licensed under the **Business Source License 1.1** ([`LICENSE`](./LICENSE)). You can use, modify and redistribute the source for non-production purposes such as development, testing and evaluation. Production use requires a commercial license from Tashi Network (https://tashi.network). Each version converts to the Apache License, Version 2.0 four years after it is published.
+
+The `rumqttd-protocol/` directory is an in-tree copy of [`rumqttd`](https://github.com/bytebeamio/rumqtt). It is not part of the Licensed Work and keeps its original Apache License, Version 2.0 ([`rumqttd-protocol/LICENSE`](./rumqttd-protocol/LICENSE)).
+
 ---
 *Reference: [FoxMQ Documentation](https://docs.tashi.network/resources/foxmq)*
